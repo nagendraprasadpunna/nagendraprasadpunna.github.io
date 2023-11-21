@@ -1,0 +1,108 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+.body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+}
+
+.a {
+  color: #149ddd;
+  text-decoration: none;
+}
+
+.a:hover {
+  color: #37b3ed;
+  text-decoration: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+.header {color:#000 !important;background-color:#c5cae9 !important}
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+.header {
+ background-color: #f8f9fa;
+ padding: 10px 0;
+ border: 1px;
+}
+
+.nav-menu {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.nav-menu a {
+ text-decoration: none;
+ color: #333;
+ padding: 10px 16px;
+}
+
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: inline;
+}
+.nav-menu>ul>li {
+  
+  display: inline;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+ color: #000;
+ padding: 8px 16px;
+ background-color: #e8eaf6;
+ border: 1px;
+}
+
+
+.nav-menu a:hover {
+ background-color: #ddd;
+ color: #333;
+}
+
+  .jumbotron {
+            background-color: rgba(28,110,164,0.14);
+            color: navy;
+          margin: 12px;
+            border: 1.5px solid #1C6EA4;
+            text-align: center;
+            
+
+        }
+
+
+
+.blog-title {
+            font-size: 30px;
+            align-items: center;
+        
+  
+        }
+
+        .blog-post {
+            border-bottom: 1px solid #e5e5e5;
+            padding: 20px 0;
+        
+  
+        }
+
+        .blog-post:last-child {
+            border-bottom: none;
+        }
+.responsive {
+ width: 100%;
+ height: auto;
+}
